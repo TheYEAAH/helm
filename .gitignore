@@ -5,6 +5,7 @@
 xcuserdata
 xcshareddata
 build
+builds
 .clang_complete
 .vs
 .ycm_extra_conf.py*
