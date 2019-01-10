@@ -8,7 +8,7 @@
               pluginIsSynth="1" pluginWantsMidiIn="1" pluginProducesMidiOut="0"
               pluginSilenceInIsSilenceOut="0" pluginEditorRequiresKeys="1"
               pluginAUExportPrefix="helm" pluginRTASCategory="" aaxIdentifier="org.tytel.helm"
-              pluginAAXCategory="2048" jucerVersion="5.3.2" companyName="Matt Tytel"
+              pluginAAXCategory="2048" jucerVersion="5.4.1" companyName="Matt Tytel"
               companyEmail="matthewtytel@gmail.com" companyWebsite="tytel.org"
               pluginIsMidiEffectPlugin="0" buildAUv3="0" displaySplashScreen="1"
               reportAppUsage="1" splashScreenColour="Dark" buildStandalone="0"
@@ -550,7 +550,8 @@
         <MODULEPATH id="juce_opengl" path="JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
-    <VS2017 targetFolder="builds/vs17" vst3Folder="VST3_SDK" windowsTargetPlatformVersion="8.1">
+    <VS2017 targetFolder="builds/vs17" vst3Folder="C:\Users\dell\Documents\ProjetsC++\VST_SDK\VST3_SDK"
+            windowsTargetPlatformVersion="Latest">
       <CONFIGURATIONS>
         <CONFIGURATION isDebug="1" name="Debug" headerPath="../../concurrentqueue&#10;../../mopo/src&#10;../../src&#10;../../src/common&#10;../../src/editor_components&#10;../../src/editor_sections&#10;../../src/look_and_feel&#10;../../src/standalone&#10;../../src/synthesis"
                        targetName="helm" winArchitecture="Win32" winWarningLevel="2"/>
@@ -598,5 +599,6 @@
   <JUCEOPTIONS JUCE_QUICKTIME="disabled" JUCE_WEB_BROWSER="0"/>
   <LIVE_SETTINGS>
     <OSX/>
+    <WINDOWS/>
   </LIVE_SETTINGS>
 </JUCERPROJECT>
